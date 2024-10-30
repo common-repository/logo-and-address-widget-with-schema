@@ -1,0 +1,139 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.wsx-ft-clsFooterlogo,
+.laawws-btm-address {
+   margin-bottom: 10px;
+}
+
+.style3.wsx-ft-address {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.wsx-ft-address,
+.wsx-ft-phone,
+.wsx-ft-fax,
+.wsx-ft-email {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wsx-ft-office-location .fa {
+    float: left;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.wsx-ft-office-location i {
+    margin-right: 5px;
+}
+
+.wsx-ft-email a, .wsx-ft-phone a {
+  text-decoration: underline!important;
+}
+
+.wsx-ft-email a:hover, .wsx-ft-phone a:hover {
+  text-decoration: none!important;
+}
+
+small.laawws-small {
+    color: #888;
+    display: inline-block;
+    margin-top: 6px;
+}
+.wsx-ft-clsFooterlogo > a {
+    display: block;
+    overflow: hidden;
+}
+
+.laawws-btm-line {
+    margin: 30px 0 20px;
+}
+
+.wsx-ft-email .fa,
+.wsx-ft-phone .fa,
+.wsx-ft-fax .fa {
+    margin-right: 5px;
+}
+
+.laawws-open-hrs {
+  margin-top: 30px;
+}
+
+.laawws-day-label {
+    float: left;
+    width: 40px;
+}
+
+.laawws-open-hrs .clearfix {
+  margin-bottom: 5px;
+}
+
+.laawws-address-line1,
+.laawws-address-line2 {
+    display: block;
+}
+
+.laawws-open-hrs-mon,
+.laawws-open-hrs-tue,
+.laawws-open-hrs-wed,
+.laawws-open-hrs-thu,
+.laawws-open-hrs-fri,
+.laawws-open-hrs-sun2,
+.laawws-open-hrs-sun,
+.laawws-open-hrs-monfri {
+    margin-right: 20px;
+}
+
+.laawws-date-left {
+    float: left;
+    width: 65px;
+}
+
+.laawws-open-hrs-monfri {
+  margin-right: 3px;
+}
+.laawws-date-left.mon-fri {
+    width: 85px;
+}
+
+.laawws-day-label.mon-fri {
+    width: 75px;
+}
+
+.wsx-ft-clsFooterlogo img {
+    height: auto;
+    max-width: 250px;
+}
+.laawws-date-left > label {
+    display: inline-block;
+    margin-top: 5px;
+}
+.laawws-date-left > input[type="checkbox"] {
+    display: inline-block;
+    margin-top: 5px!important;
+}
+.wsx-ft-office-location {
+    min-width: 250px;
+}
+.laawws-mon-fri-time-wrap {
+    width: 250px;
+}
+.laawws_address_fawesome_wrap,
+.laawws_address_custom_image_wrap {
+  display: block;
+  margin: 10px 0;
+}
